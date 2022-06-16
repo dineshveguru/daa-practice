@@ -1,7 +1,3 @@
-from turtle import end_fill
-from pandas import pivot
-
-
 n = int(input("enter number of elements: "))
 arr = []
 for i in range(n):
@@ -9,9 +5,7 @@ for i in range(n):
 
 
 def swap(arr, a, b):
-    temp = arr[a]
-    arr[a] = arr[b]
-    arr[b] = temp
+    arr[a], arr[b] = arr[b], arr[a]
 
 
 def partition(arr, start, end):

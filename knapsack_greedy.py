@@ -1,5 +1,3 @@
-from audioop import add
-
 
 n = int(input("enter number of elements: "))
 weights = []

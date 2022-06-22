@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 6d37603f69024049529cb50ad928da12a5fcd9df
 n = int(input("enter number of elements: "))
 weights = []
 profits = []

@@ -1,6 +1,3 @@
-from traceback import print_tb
-
-
 class Node:
     def __init__(self, data) -> None:
         self.root = data

@@ -1,6 +1,3 @@
-from numpy import minimum
-
-
 inf = 9999999
 v = int(input("enter number of vertices: "))
 graph = []
@@ -16,7 +13,7 @@ for i in range(v):
 selected = [0 for i in range(v)]
 no_edge = 0
 selected[0] = True
-print("edge: weight\n")
+print("edge: weight")
 while no_edge < v - 1:
     mininum = inf
     for i in range(v):

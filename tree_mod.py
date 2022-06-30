@@ -48,7 +48,6 @@ class Node:
 n = int(input("enter data: "))
 node = Node(n)
 print("enter 1 for inserting node\nenter 2 for in order traversal\nenter 3 for pre order traversal\nenter 4 for post order traversal")
-selection = 0
 while True:
     selection = int(input("enter your selection: "))
     if selection == 1:

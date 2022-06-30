@@ -1,4 +1,5 @@
-jobs = [['a', 100, 2], ['c', 27, 2], ['d', 25, 1], ['b', 19, 1], ['e', 15, 3]]
+jobs = ([['a', 100, 2], ['c', 27, 2], ['d', 25, 1], [
+    'b', 19, 1], ['e', 15, 3]])
 n_jobs = 0
 for i in jobs:
     if i[2] > n_jobs:
@@ -17,3 +18,4 @@ for i in profit:
     for j in jobs:
         if i == j[1]:
             print(j[0], end=' ')
+            break

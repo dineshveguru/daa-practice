@@ -24,6 +24,6 @@ while no_edge < v - 1:
                         minimum = graph[i][j]
                         x = i
                         y = j
-    print(str(x) + " - " + str(y) + " : " + str(graph[x][y]))
+    print(f"{x} - {y} : {graph[x][y]}")
     selected[y] = True
     no_edge += 1
